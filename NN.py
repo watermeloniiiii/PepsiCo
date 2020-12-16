@@ -16,8 +16,6 @@ np.set_printoptions(suppress=True)
 def sigmoid(x):
     return 1/(1+np.exp(-x))
 
-
-
 '''
 A three layer neuron network (input-hidden-output)
 the hidden layer contains four neurons which requires 25 input values for each (24 variables plus 1 bias)
